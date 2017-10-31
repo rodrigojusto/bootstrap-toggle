@@ -168,7 +168,7 @@
 	// ===============
 
 	$(function() {
-		$('input[type=checkbox][data-toggle^=toggle]').bootstrapToggle()
+		$('input[type=radio][data-toggle^=toggle]').bootstrapToggle()
 	})
 
 	$(document).on('click.bs.toggle', 'div[data-toggle^=toggle]', function(e) {
